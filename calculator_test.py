@@ -14,9 +14,9 @@ class Test(unittest.TestCase):
     def test_0_multiply(self):
         result = self.calculator.multiply(4,4)
         self.assertEqual(result,16)
-    def test_0_divide(self):
-        result = self.calculator.divide(4,4)
-        self.assertEqual(result,1)
+    def test_0_power(self):
+        result = self.calculator.power(2,3)
+        self.assertEqual(result,8)
 if __name__ == '__main__':
     # begin the unittest.main()
     unittest.main()
