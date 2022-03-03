@@ -12,8 +12,8 @@ class Test(unittest.TestCase):
         result = self.calculator.subtract(8,4)
         self.assertEqual(result,4)
     def test_0_multiply(self):
-        result = self.calculator.multiply(4,4)
-        self.assertEqual(result,16)
+        result = self.calculator.multiply(5,5)
+        self.assertEqual(result,25)
     def test_0_power(self):
         result = self.calculator.power(2,3)
         self.assertEqual(result,8)
